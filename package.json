@@ -1,0 +1,47 @@
+{
+  "name": "phone-number-formatter",
+  "version": "1.0.0",
+  "description": "Normalise messy phone numbers into E.164 and readable national/international formats. Zero-dependency TypeScript library and CLI for CRM data cleanup.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "phone-format": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc",
+    "test": "tsc && node --test"
+  },
+  "keywords": [
+    "phone",
+    "phone-number",
+    "e164",
+    "formatter",
+    "normalize",
+    "csv",
+    "crm",
+    "cli"
+  ],
+  "author": "Socialist Fox",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ansab-imam/phone-number-formatter.git"
+  },
+  "homepage": "https://github.com/ansab-imam/phone-number-formatter#readme",
+  "bugs": {
+    "url": "https://github.com/ansab-imam/phone-number-formatter/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "typescript": "^5.4.0"
+  }
+}
